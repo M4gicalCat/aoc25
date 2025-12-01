@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e7644c-2368-401e-9a4b-344f2f0711da" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/days/D1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+    <list default="true" id="50e7644c-2368-401e-9a4b-344f2f0711da" name="Changes" comment=".gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/D1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D1.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.REAL.executor": "Run",
+    "Shell Script.TEST.executor": "Run",
     "Shell Script.Unnamed.executor": "Run",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "24.11.0",
@@ -71,9 +72,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="ShConfigurationType" nameIsGenerated="true">
-      <option name="SCRIPT_TEXT" value="npm run build; npm run run 1 1 test" />
+  <component name="RunManager" selected="Shell Script.REAL">
+    <configuration name="REAL" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="npm run build; npm run run 1 2" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="" />
       <option name="SCRIPT_OPTIONS" value="" />
@@ -87,6 +88,25 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="TEST" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="npm run build; npm run run 1 2 test" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="powershell.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Shell Script.TEST" />
+      <item itemvalue="Shell Script.REAL" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -102,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764623535442</updated>
-      <workItem from="1764623536449" duration="1235000" />
+      <workItem from="1764623536449" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -112,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764624691238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove dist">
+      <option name="closed" value="true" />
+      <created>1764624802428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764624802428</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".gitignore">
+      <option name="closed" value="true" />
+      <created>1764624809500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764624809500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +156,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="remove dist" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
 </project>
