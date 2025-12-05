@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e7644c-2368-401e-9a4b-344f2f0711da" name="Changes" comment=".gitignore">
+    <list default="true" id="50e7644c-2368-401e-9a4b-344f2f0711da" name="Changes" comment="day 5">
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/days/D1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/D2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D2.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/D3.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D3.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/D4.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D4.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/D5.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D5.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "M4gicalCat"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;M4gicalCat&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/M4gicalCat/aoc25.git",
-    "accountId": "0d5b3b7f-e15b-4250-8630-3f74dba766f4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/M4gicalCat/aoc25.git&quot;,
+    &quot;accountId&quot;: &quot;0d5b3b7f-e15b-4250-8630-3f74dba766f4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="36GCUK5hvQ0oCAAxu3vl8vRk3IM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,22 +64,35 @@
     "Shell Script.TEST.executor": "Run",
     "Shell Script.Unnamed.executor": "Run",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "24.11.0",
     "javascript.nodejs.core.library.typings.version": "24.10.1",
+    "last_opened_file_path": "C:/Users/phili/WebstormProjects/aoc25/src/days",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "C:/Users/phili/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/24.11.0/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\phili\\AppData\\Roaming\\JetBrains\\WebStorm2025.2\\node\\versions\\24.11.0\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "C:\\Users\\phili\\WebstormProjects\\aoc25\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\phili\WebstormProjects\aoc25\src\days" />
+    </key>
+  </component>
   <component name="RunManager" selected="Shell Script.REAL">
     <configuration name="REAL" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="npm run build; npm run run 1 2" />
+      <option name="SCRIPT_TEXT" value="clear; npm run build; npm run run 5 1" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="" />
       <option name="SCRIPT_OPTIONS" value="" />
@@ -89,7 +107,7 @@
       <method v="2" />
     </configuration>
     <configuration name="TEST" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="npm run build; npm run run 1 2 test" />
+      <option name="SCRIPT_TEXT" value="clear; npm run build; npm run run 5 1 test" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="" />
       <option name="SCRIPT_OPTIONS" value="" />
@@ -122,7 +140,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764623535442</updated>
-      <workItem from="1764623536449" duration="5771000" />
+      <workItem from="1764623536449" duration="6062000" />
+      <workItem from="1764955043971" duration="1781000" />
+      <workItem from="1764960835918" duration="10094000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -148,7 +168,55 @@
       <option name="project" value="LOCAL" />
       <updated>1764624809500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day 1">
+      <option name="closed" value="true" />
+      <created>1764629657370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764629657370</updated>
+    </task>
+    <task id="LOCAL-00005" summary="templates">
+      <option name="closed" value="true" />
+      <created>1764955219122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764955219122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="day 2">
+      <option name="closed" value="true" />
+      <created>1764966911475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764966911475</updated>
+    </task>
+    <task id="LOCAL-00007" summary="day 3">
+      <option name="closed" value="true" />
+      <created>1764968489662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764968489662</updated>
+    </task>
+    <task id="LOCAL-00008" summary="day 4">
+      <option name="closed" value="true" />
+      <created>1764970132749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764970132749</updated>
+    </task>
+    <task id="LOCAL-00009" summary="day 5">
+      <option name="closed" value="true" />
+      <created>1764971486791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764971486791</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +226,12 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="remove dist" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="day 1" />
+    <MESSAGE value="templates" />
+    <MESSAGE value="day 2" />
+    <MESSAGE value="day 3" />
+    <MESSAGE value="day 4" />
+    <MESSAGE value="day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5" />
   </component>
 </project>
