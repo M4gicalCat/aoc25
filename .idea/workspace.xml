@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50e7644c-2368-401e-9a4b-344f2f0711da" name="Changes" comment="day 5">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days/D1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D1.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days/D2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days/D3.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D3.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days/D4.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D4.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days/D5.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D5.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/D8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/D8.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,39 +48,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.Unnamed.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Shell Script.REAL.executor": "Run",
-    "Shell Script.TEST.executor": "Run",
-    "Shell Script.Unnamed.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "24.11.0",
-    "javascript.nodejs.core.library.typings.version": "24.10.1",
-    "last_opened_file_path": "C:/Users/phili/WebstormProjects/aoc25/src/days",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/phili/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/24.11.0/node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\phili\\AppData\\Roaming\\JetBrains\\WebStorm2025.2\\node\\versions\\24.11.0\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Users\\phili\\WebstormProjects\\aoc25\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Shell Script.REAL.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.TEST.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.12.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.10.4&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/plifip/dev/aoc25&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/plifip/.nvm/versions/node/v24.12.0/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/plifip/dev/aoc25/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\phili\WebstormProjects\aoc25\src\days" />
@@ -92,7 +90,7 @@
   </component>
   <component name="RunManager" selected="Shell Script.REAL">
     <configuration name="REAL" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="clear; npm run build; npm run run 5 1" />
+      <option name="SCRIPT_TEXT" value="clear; npm run build; npm run run 8 2" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="" />
       <option name="SCRIPT_OPTIONS" value="" />
@@ -107,7 +105,7 @@
       <method v="2" />
     </configuration>
     <configuration name="TEST" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="clear; npm run build; npm run run 5 1 test" />
+      <option name="SCRIPT_TEXT" value="clear; npm run build; npm run run 8 2 test" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="" />
       <option name="SCRIPT_OPTIONS" value="" />
@@ -129,7 +127,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -143,6 +141,9 @@
       <workItem from="1764623536449" duration="6062000" />
       <workItem from="1764955043971" duration="1781000" />
       <workItem from="1764960835918" duration="10094000" />
+      <workItem from="1766610031531" duration="1490000" />
+      <workItem from="1766653375573" duration="4097000" />
+      <workItem from="1766676439642" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
